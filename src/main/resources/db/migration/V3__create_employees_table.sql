@@ -1,0 +1,8 @@
+CREATE TABLE employees (
+    employee_id BIGSERIAL PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    job_title VARCHAR(255) NOT NULL,
+    job_type VARCHAR(255) NOT NULL,
+    team VARCHAR(255) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
