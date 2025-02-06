@@ -21,7 +21,7 @@ Para configurar as chaves para autenticação via JWT, siga as instruções abai
 ```
 cd \src\main\resources\jwt>
 ```
-- DGere da chave pública executando o comando:
+- Gere a chave pública executando o comando:
 ```
 openssl genpkey -algorithm RSA -out app.key -outform PEM
 ```
