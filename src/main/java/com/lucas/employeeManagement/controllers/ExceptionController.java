@@ -11,6 +11,6 @@ public class ExceptionController {
 
   @ExceptionHandler(AccessDeniedException.class)
   public ResponseEntity<String> handleAccessDenied(AccessDeniedException ex) {
-    return new ResponseEntity<>("Só usuários 'SUPERUSER' podem acessar esse método", HttpStatus.FORBIDDEN);
+    return new ResponseEntity<>("Only 'SUPERUSER' users can access this method", HttpStatus.FORBIDDEN);
   }
 }

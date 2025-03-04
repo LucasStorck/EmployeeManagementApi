@@ -31,8 +31,8 @@ public class TokenController {
   @Autowired
   private BCryptPasswordEncoder bCryptPasswordEncoder;
 
-  @Operation(summary = "Autenticação do usuário",
-          description = "Esse método permite autenticar um usuário no sistema")
+  @Operation(summary = "User authentication",
+          description = "This method allows you to authenticate a user on the system")
   @PostMapping("/api/login")
   public ResponseEntity<LoginResponseDto> loginResponseDto(@RequestBody LoginRequestDto loginRequestDto) {
 

@@ -13,8 +13,9 @@ public class SwaggerConfig {
     return new OpenAPI()
             .info(new Info()
                     .title("Gerenciador de Funcionários")
-                    .version("v1.0")
-                    .description("Sistema de Gerenciamento de Funcionários: Este sistema permite a gestão de dados de funcionários, oferecendo funcionalidades para criar, ler, atualizar e excluir (CRUD) informações relacionadas aos funcionários. O acesso completo a esses recursos é restrito aos usuários registrados com a permissão de 'SUPERUSER', garantindo que apenas administradores ou pessoas com privilégios elevados possam realizar essas operações sensíveis.")
+                    .version("v1.5")
+                    .description("Sistema de Gerenciamento de Funcionários: Este sistema permite a gestão de dados de funcionários, oferecendo funcionalidades para criar, ler, atualizar e excluir (CRUD) informações relacionadas aos funcionários. " +
+                            "O acesso completo a esses recursos é restrito aos usuários registrados com a permissão de 'SUPERUSER', garantindo que apenas administradores ou pessoas com privilégios elevados possam realizar essas operações sensíveis.")
             );
   }
 }

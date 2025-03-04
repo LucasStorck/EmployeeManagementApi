@@ -29,8 +29,8 @@ public class UserController {
   @Autowired
   private BCryptPasswordEncoder bCryptPasswordEncoder;
 
-  @Operation(summary = "Registro de usuário",
-          description = "Esse método permite registar um novo usuário no sistema")
+  @Operation(summary = "User registration",
+          description = "This method allows you to register a new user in the system")
   @PostMapping("/api/users")
   @Transactional
   public ResponseEntity<Void> createUser(@RequestBody CreateUserDto createUserDto) {
