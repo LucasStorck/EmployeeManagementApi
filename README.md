@@ -1,6 +1,8 @@
 # Gerenciador de Funcionários
 #### Sistema de Gerenciamento de Funcionários: Este sistema permite a gestão de dados de funcionários, oferecendo funcionalidades para criar, ler, atualizar e excluir (CRUD) informações relacionadas aos funcionários. O acesso completo a esses recursos é restrito aos usuários registrados com a permissão de 'SUPERUSER', garantindo que apenas administradores ou pessoas com privilégios elevados possam realizar essas operações sensíveis.
 
+![swagger_employee-2](https://github.com/user-attachments/assets/1f4c3e43-0769-4567-8509-07637fd82eec)
+
 ## Tecnologias
 
 - Java 21
